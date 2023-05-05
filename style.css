@@ -1,0 +1,31 @@
+.slider-container {
+    position: relative;
+  }
+  .slider {
+    display: flex;
+    overflow: hidden;
+  }
+  .slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 400px;
+  }
+  .slider-menu {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .menu-item {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  .menu-item.active {
+    background-color: #000;
+  }
+  
